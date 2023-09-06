@@ -3,6 +3,7 @@
     src: url(Albertson.ttf);
 }
 
-h1{
-    font-family: MyFont;
+body{
+    font-family: MyFont !important; 
+    letter-spacing: 1.5px !important;
 }
