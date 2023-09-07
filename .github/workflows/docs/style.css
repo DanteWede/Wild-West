@@ -31,11 +31,12 @@ body{
 */
 
 .buttons{
-  padding: 80px 160px;
+  padding: 20px 40px;
   font-size: 30px;
   border-width: 10px;
   border-color: rgb(166, 126, 77);
-  background-color: transparent;
+  background-color: black;
+  color: rgb(166, 126, 77);
 }
 
 h2 {
