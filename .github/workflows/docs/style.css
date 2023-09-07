@@ -15,6 +15,7 @@ body{
 .text{
   background-color: rgba(0,0,0,0.5);
   color:bisque;
+  padding-bottom:100%;
 }
 
 .button {
