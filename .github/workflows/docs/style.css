@@ -30,20 +30,26 @@ body{
   padding:50px;
   padding-bottom:100%;
 }
-
+/*
 .button {
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 100px !important;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 100%;
-  position:absolute;
-  bottom: 5%;
-  right:20%;
   cursor: pointer;
+}
+*/
+
+.buttons{
+  padding: 20px 40px;
+  font-size: 30px;
+  border-width: 10px;
+  border-color: rgb(166, 126, 77);
+  background-color: black;
+  color: rgb(166, 126, 77);
 }
 
 h2 {
