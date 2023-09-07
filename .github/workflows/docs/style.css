@@ -4,19 +4,26 @@
 }
 
 body{
-    font-family: MyFont !important; 
-    letter-spacing: 1.5px !important;
-    background-image: url(img/Camp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+  font-family: MyFont !important; 
+  letter-spacing: 1.5px !important;
+  background-image: url(img/Camp.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 400px;
+  position: fixed;
 }
 
 .text{
   background-color: rgba(0,0,0,0.2);
   backdrop-filter:blur(2px);
   color:rgb(166, 126, 77);
-  
+  width: auto;
+  height:1000px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 .h2{
