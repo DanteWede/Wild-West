@@ -17,21 +17,26 @@ body{
   color:bisque;
   padding-bottom:100%;
 }
-
+/*
 .button {
   border: none;
   color: black;
-  padding: 15px 32px;
+  padding: 100px !important;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 100%;
-  position:absolute;
-  bottom: 5%;
-  right:20%;
   cursor: pointer;
 }
+*/
+
+.buttons{
+  padding: 80px 160px;
+  font-size: 30px;
+  border-width: 10px;
+  border-color: rgb(166, 126, 77);
+}
+
 h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
