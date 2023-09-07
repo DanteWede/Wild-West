@@ -35,6 +35,7 @@ body{
   font-size: 30px;
   border-width: 10px;
   border-color: rgb(166, 126, 77);
+  background-color: transparent;
 }
 
 h2 {
