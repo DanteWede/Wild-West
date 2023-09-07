@@ -19,6 +19,8 @@ body{
   display: inline-block;
   font-size: 16px;
   margin-top: 100%;
-  position: relative;
+  position:absolute;
+  bottom: 5%;
+  right:20%;
   cursor: pointer;
 }
