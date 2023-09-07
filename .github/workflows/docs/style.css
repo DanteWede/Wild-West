@@ -14,7 +14,7 @@ body{
 }
 
 .text{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.4);
   backdrop-filter:blur(2px);
   color:rgb(166, 126, 77);
   width: auto;
@@ -30,18 +30,6 @@ body{
   padding:50px;
   padding-bottom:100%;
 }
-/*
-.button {
-  border: none;
-  color: black;
-  padding: 100px !important;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}
-*/
 
 .buttons{
   padding: 20px 40px;
