@@ -1185,14 +1185,5 @@ else if(choices=="000"){
         document.getElementById("button_text2").innerHTML = "Take the Rdsadsadiver.";
         choices = choices + "1";
     }
-else{
-    /* document.getElementById("BackBody").style.backgroundImage="url(img/Ending_Neutral.jpg)";
 
-document.getElementById("text").innerHTML = "You clicked the button, I am new paragraph. waihubdauibdua daiuhwndioanidnh awdiuabwidbnaoi doaiuhwdiaobhwdu aowdboauibwduioanwdiubaidba idbaoibwduiabudbauiob dauio";
-
-document.getElementById("button_text").innerHTML = "Take the valley.";
-document.getElementById("button_text2").innerHTML = "Take the River.";
-
-choices="0";*/
-} 
 }
