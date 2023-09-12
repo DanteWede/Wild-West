@@ -8,7 +8,7 @@ body{
   letter-spacing: 1.5px !important;
   background-image: url(img/Camp.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   height: 400px;
   position: fixed;
 }
@@ -18,7 +18,7 @@ body{
   backdrop-filter:blur(2px);
   color:rgb(166, 126, 77);
   width: auto;
-  height:1000px;
+  height: 1000px;
   overflow: auto;
 }
 
