@@ -18,7 +18,7 @@ body{
   backdrop-filter:blur(2px);
   color:rgb(166, 126, 77);
   width: auto;
-  height:1000px;
+  height: 1000px;
   overflow: auto;
 }
 
