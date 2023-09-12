@@ -28,6 +28,8 @@ body{
 
 .h2{
   padding:50px;
+  padding-bottom:10px;
+  font-size:24px;
 }
 
 .buttons{
@@ -37,4 +39,7 @@ body{
   border-color: rgb(166, 126, 77);
   background-color: black;
   color: rgb(166, 126, 77);
+}
+strong{
+  font-size:50px;
 }
