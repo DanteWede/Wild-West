@@ -7,7 +7,7 @@ function background_change(){
     
     if(choices==""){
         
-            document.getElementById("BackBody").style.backgroundImage="url(img/Bank_outside.webp)";
+            document.getElementById("BackBody").style.backgroundImage="url(img/)";
             
             document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
         
@@ -22,8 +22,8 @@ function background_change(){
         
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
-        document.getElementById("button_text").innerHTML = "Ligma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+        document.getElementById("button_text").innerHTML = "Keep Going";
+        document.getElementById("button_text2").innerHTML = "Set up Camp";
         choices = choices + "0";
 }
 else if(choices=="1"){
@@ -32,8 +32,8 @@ else if(choices=="1"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Sugma.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Plot the heist";
+    document.getElementById("button_text2").innerHTML = "Set up Camp";
     choices = choices + "0";
 }
 /* 2 */
@@ -43,8 +43,8 @@ else if(choices=="00"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ginger.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Go from the front.";
+    document.getElementById("button_text2").innerHTML = "Go from the back.";
     choices = choices + "0";
 }
 else if(choices=="01"){
@@ -53,8 +53,8 @@ else if(choices=="01"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ligma.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Go from the front.";
+    document.getElementById("button_text2").innerHTML = "Go from the back.";
     choices = choices + "0";
 }
 else if(choices=="10"){
@@ -63,8 +63,8 @@ else if(choices=="10"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
-    document.getElementById("button_text").innerHTML = "Fuck You.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Stop the Train with the horses";
+    document.getElementById("button_text2").innerHTML = "Board the train with the horses.";
     choices = choices + "0";
     }
 else if(choices=="11"){
@@ -73,8 +73,8 @@ document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing
 
 document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-document.getElementById("button_text").innerHTML = "Sugma.";
-document.getElementById("button_text2").innerHTML = "Take the River.";
+document.getElementById("button_text").innerHTML = "Stop the Train with the horses.";
+document.getElementById("button_text2").innerHTML = "Jump from a cliff onto the train.";
 choices = choices + "0";
 }
 /*3*/
