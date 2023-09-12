@@ -9,7 +9,7 @@ function background_change(){
         
             document.getElementById("BackBody").style.backgroundImage="url(img/Bank_outside.webp)";
             
-            document.getElementById("text").innerHTML = "";
+            document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
         
             document.getElementById("button_text").innerHTML = "Take the valley.";
             document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -20,7 +20,7 @@ function background_change(){
         
         document.getElementById("BackBody").style.backgroundImage="url(img/Bank_robbing.jpg)";
         
-        document.getElementById("text").innerHTML = "";
+        document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
         document.getElementById("button_text").innerHTML = "Ligma.";
         document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -30,7 +30,7 @@ else if(choices=="1"){
         
     document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
     
-    document.getElementById("text").innerHTML = "";
+    document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
     document.getElementById("button_text").innerHTML = "Sugma.";
     document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -41,7 +41,7 @@ else if(choices=="00"){
         
     document.getElementById("BackBody").style.backgroundImage="url(img/Bank_robbing.jpg)";
     
-    document.getElementById("text").innerHTML = "";
+    document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
     document.getElementById("button_text").innerHTML = "Ginger.";
     document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -51,7 +51,7 @@ else if(choices=="01"){
         
     document.getElementById("BackBody").style.backgroundImage="url(img/Bank_robbing.jpg)";
     
-    document.getElementById("text").innerHTML = "";
+    document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
     document.getElementById("button_text").innerHTML = "Ligma.";
     document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -61,7 +61,7 @@ else if(choices=="10"){
     
     document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
     
-    document.getElementById("text").innerHTML = "";
+    document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
     document.getElementById("button_text").innerHTML = "Fuck You.";
     document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -71,7 +71,7 @@ else if(choices=="11"){
     
 document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
 
-document.getElementById("text").innerHTML = "";
+document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
 document.getElementById("button_text").innerHTML = "Sugma.";
 document.getElementById("button_text2").innerHTML = "Take the River.";
@@ -97,7 +97,7 @@ function background_change2(){
         
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_outside.webp)";
         
-        document.getElementById("text").innerHTML = "";
+        document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
         document.getElementById("button_text").innerHTML = "Take the valley.";
         document.getElementById("button_text2").innerHTML = "Take the River.";
