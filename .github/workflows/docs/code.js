@@ -1,4 +1,5 @@
 var choices = "";
+document.getElementById("test").innerHTML = choices;
 
 
 
@@ -25,6 +26,7 @@ function background_change(){
         document.getElementById("button_text").innerHTML = "Keep Going";
         document.getElementById("button_text2").innerHTML = "Set up Camp";
         choices = choices + "0";
+        document.getElementById("test").innerHTML = choices;
 }
 else if(choices=="1"){
         
@@ -35,6 +37,7 @@ else if(choices=="1"){
     document.getElementById("button_text").innerHTML = "Plot the heist";
     document.getElementById("button_text2").innerHTML = "Set up Camp";
     choices = choices + "0";
+    document.getElementById("test").innerHTML = choices;
 }
 /* 2 */
 else if(choices=="00"){
@@ -84,9 +87,10 @@ else if(choices=="000"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ginger.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Take care of the hostages.";
+    document.getElementById("button_text2").innerHTML = "Go around back to the vault.";
     choices = choices + "0";
+    document.getElementById("test").innerHTML = choices;
 }
 else if(choices=="001"){
         
@@ -94,8 +98,8 @@ else if(choices=="001"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ligma.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Focus on the vault.";
+    document.getElementById("button_text2").innerHTML = "Help the gang with the hostages.";
     choices = choices + "0";
 }
 else if(choices=="010"){
@@ -104,8 +108,8 @@ else if(choices=="010"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
-    document.getElementById("button_text").innerHTML = "Fuck You.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Take care of the hostages.";
+    document.getElementById("button_text2").innerHTML = "Go around back to the vault.";
     choices = choices + "0";
     }
 else if(choices=="011"){
@@ -114,8 +118,8 @@ document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing
 
 document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-document.getElementById("button_text").innerHTML = "Sugma.";
-document.getElementById("button_text2").innerHTML = "Take the River.";
+document.getElementById("button_text").innerHTML = "Hold guard by the entrence.";
+document.getElementById("button_text2").innerHTML = "Focus on the vault.";
 choices = choices + "0";
 }
 else if(choices=="100"){
@@ -124,8 +128,8 @@ else if(choices=="100"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ginger.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Take care of the train condoctor.";
+    document.getElementById("button_text2").innerHTML = "Help searching the train.";
     choices = choices + "0";
 }
 else if(choices=="101"){
@@ -134,8 +138,8 @@ else if(choices=="101"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ligma.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Make your way to the front of the train.";
+    document.getElementById("button_text2").innerHTML = "Follow your gang into the train.";
     choices = choices + "0";
 }
 else if(choices=="110"){
@@ -144,8 +148,8 @@ else if(choices=="110"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
-    document.getElementById("button_text").innerHTML = "Fuck You.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Take care of the train condoctor..";
+    document.getElementById("button_text2").innerHTML = "Help searching the train.";
     choices = choices + "0";
     }
 else if(choices=="111"){
@@ -154,8 +158,8 @@ document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing
 
 document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-document.getElementById("button_text").innerHTML = "Sugma.";
-document.getElementById("button_text2").innerHTML = "Take the River.";
+document.getElementById("button_text").innerHTML = "Go down into the train.";
+document.getElementById("button_text2").innerHTML = "Continue walking towards the front of the train.";
 choices = choices + "0";
 }
 /*4*/
@@ -728,86 +732,87 @@ else if(choices=="11"){
     choices = choices + "1";
     }
 
-else if(choices=="000"){
-        
+    else if(choices=="000"){
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Take care of the hostages.";
+        document.getElementById("button_text2").innerHTML = "Go around back to the vault.";
         choices = choices + "1";
     }
     else if(choices=="001"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Focus on the vault.";
+        document.getElementById("button_text2").innerHTML = "Help the gang with the hostages.";
         choices = choices + "1";
     }
     else if(choices=="010"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Take care of the hostages.";
+        document.getElementById("button_text2").innerHTML = "Go around back to the vault.";
         choices = choices + "1";
     }
     else if(choices=="011"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Hold guard by the entrance.";
+        document.getElementById("button_text2").innerHTML = "Focus on the vault.";
         choices = choices + "1";
     }
     else if(choices=="100"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Take care of the train conductor.";
+        document.getElementById("button_text2").innerHTML = "Help searching the train.  ";
         choices = choices + "1";
     }
     else if(choices=="101"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Make your way to the front of the train.";
+        document.getElementById("button_text2").innerHTML = "Follow your gang into the train.";
         choices = choices + "1";
     }
     else if(choices=="110"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Take care of the train conductor.";
+        document.getElementById("button_text2").innerHTML = "Help searching the train.";
         choices = choices + "1";
     }
     else if(choices=="111"){
-        
+       
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
-        
+       
         document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
-    
-        document.getElementById("button_text").innerHTML = "Sugma.";
-        document.getElementById("button_text2").innerHTML = "Take the River.";
+   
+        document.getElementById("button_text").innerHTML = "Go down into the train.";
+        document.getElementById("button_text2").innerHTML = "Continue walking towards the front of the train.";
         choices = choices + "1";
     }
+
     else if(choices=="0000"){
         
         document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing.jpg)";
