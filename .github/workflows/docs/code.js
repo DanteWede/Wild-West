@@ -169,8 +169,8 @@ else if(choices=="0000"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ginger.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Hold the hostages longer.";
+    document.getElementById("button_text2").innerHTML = "Let the hostages go.";
     choices = choices + "0";
 }
 else if(choices=="0001"){
@@ -179,8 +179,8 @@ else if(choices=="0001"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ligma.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Try to crack the code.";
+    document.getElementById("button_text2").innerHTML = "Use explosives.";
     choices = choices + "0";
 }
 else if(choices=="0010"){
@@ -189,8 +189,8 @@ else if(choices=="0010"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
     
-    document.getElementById("button_text").innerHTML = "Fuck You.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Try to crack the code.";
+    document.getElementById("button_text2").innerHTML = "Use explosives.";
     choices = choices + "0";
     }
 else if(choices=="0011"){
@@ -199,8 +199,8 @@ document.getElementById("BackBody").style.backgroundImage="url(img/Train_robbing
 
 document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-document.getElementById("button_text").innerHTML = "Sugma.";
-document.getElementById("button_text2").innerHTML = "Take the River.";
+document.getElementById("button_text").innerHTML = "Shoot the hostages.";
+document.getElementById("button_text2").innerHTML = "Let the hostages go.";
 choices = choices + "0";
 }
 else if(choices=="0100"){
@@ -209,8 +209,8 @@ else if(choices=="0100"){
     
     document.getElementById("text").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi autem! Aspernatur dicta laudantium cumque a, odit laborum ea officia unde quis molestiae culpa ducimus! Ex saepe doloribus possimus facilis.";
 
-    document.getElementById("button_text").innerHTML = "Ginger.";
-    document.getElementById("button_text2").innerHTML = "Take the River.";
+    document.getElementById("button_text").innerHTML = "Hold the hostages longer..";
+    document.getElementById("button_text2").innerHTML = "Let the hostages go.";
     choices = choices + "0";
 }
 else if(choices=="0101"){
