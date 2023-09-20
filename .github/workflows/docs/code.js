@@ -100,7 +100,7 @@ let rooms = [
         id: 12,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Focus on the vault", "Help the gang with the hostages"],
+        exitTexts: ["Go to the vault", "Take hostages"],
         exitIds: [17,18]
     },
     {
@@ -124,58 +124,120 @@ let rooms = [
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Try to crack the code", "Use explosives"],
-        exitIds: [11,12]
+        exitIds: [23,24]
     },
     {
         id: 16,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Hold the hostages longer", "Let the hostages go"],
-        exitIds: [13,14]
+        exitIds: [25,26]
     },
     {
         id: 17,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Try to crack the code", "Use explosives"],
-        exitIds: [15,16]
+        exitIds: [23,24]
     },
     {
         id: 18,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Shoot the hostages", "Let the hostages go"],
-        exitIds: [17,18]
+        exitIds: [27,26]
     },
     /*Train*/
+    /*Train stopped*/
     {
         id: 19,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Kick the train condoctor off the train", "Hold the train condoctor hostage"],
-        exitIds: [11,12]
+        exitIds: [28,29]
     },
     {
         id: 20,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Focus on looking for valuables", "Hold the exits"],
-        exitIds: [13,14]
+        exitIds: [30,31]
     },
+    /*Train still moving*/
     {
         id: 21,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Stop the train", "Keep the train going"],
-        exitIds: [15,16]
+        exitIds: [23,24]
     },
     {
         id: 22,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Focus on looking for valuables", "Help out holding the hostages"],
+        exitIds: [25,26]
+    },
+    /*6th-----------------------------------------------------------------------------------------------------------------------------------*/
+    {
+        id: 23,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["", "Use explosives"],
+        exitIds: [11,12]
+    },
+    {
+        id: 24,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Hold the hostages longer", "Let the hostages go"],
+        exitIds: [13,14]
+    },
+    {
+        id: 25,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Try to crack the code", "Use explosives"],
+        exitIds: [15,16]
+    },
+    {
+        id: 26,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Shoot the hostages", "Let the hostages go"],
         exitIds: [17,18]
     },
+    {
+        id: 27,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Kick the train condoctor off the train", "Hold the train condoctor hostage"],
+        exitIds: [11,12]
+    },
+    {
+        id: 28,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Focus on looking for valuables", "Hold the exits"],
+        exitIds: [13,14]
+    },
+    {
+        id: 29,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Stop the train", "Keep the train going"],
+        exitIds: [15,16]
+    },
+    {
+        id: 30,
+        background: "url(img/Bank_outside.webp)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Focus on looking for valuables", "Help out holding the hostages"],
+        exitIds: [17,18]
+    },
+
+
+    /*7th*/
     
     
 
