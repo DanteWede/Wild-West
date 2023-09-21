@@ -183,21 +183,21 @@ let rooms = [
         id: 23,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["", "Use explosives"],
+        exitTexts: ["Get the gold", "Save your gang"],
         exitIds: [11,12]
     },
     {
         id: 24,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Hold the hostages longer", "Let the hostages go"],
+        exitTexts: ["Get the gold", "Save your gang"],
         exitIds: [13,14]
     },
     {
         id: 25,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Try to crack the code", "Use explosives"],
+        exitTexts: ["Fight for the money", "Escape with your gang"],
         exitIds: [15,16]
     },
     {
