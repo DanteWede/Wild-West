@@ -130,7 +130,7 @@ let rooms = [
         id: 16,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Hold the hostages longer", "Let the hostages go"],
+        exitTexts: ["Comply with the police", "Ignore their demands"],
         exitIds: [25,26]
     },
     {
@@ -148,7 +148,7 @@ let rooms = [
         exitIds: [27,15]
     },
     /*Train*/
-    /*Train stopped*/
+    /*Train stopped--------------------------------------------------------*/
     {
         id: 19,
         background: "url(img/Bank_outside.webp)",
@@ -169,14 +169,14 @@ let rooms = [
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Stop the train", "Keep the train going"],
-        exitIds: [23,24]
+        exitIds: [33,34]
     },
     {
         id: 22,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Focus on looking for valuables", "Help out holding the hostages"],
-        exitIds: [25,26]
+        exitIds: [35,36]
     },
     /*6th-----------------------------------------------------------------------------------------------------------------------------------*/
     {
@@ -211,21 +211,21 @@ let rooms = [
         id: 27,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Use the hostages to get out", ""],
+        exitTexts: ["Use the hostages to get out", "Try to escape with the gold out back"],
         exitIds: [11,12]
     },
     {
         id: 28,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Focus on looking for valuables", "Hold the exits"],
+        exitTexts: ["Tell the gang about the police", "Escape on your own"],
         exitIds: [13,14]
     },
     {
         id: 29,
         background: "url(img/Bank_outside.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Stop the train", "Keep the train going"],
+        exitTexts: ["", "Keep the train going"],
         exitIds: [15,16]
     },
     {
