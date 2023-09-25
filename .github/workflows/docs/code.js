@@ -11,6 +11,7 @@ let currentRoom = 0;
 let rooms = [
     {
         id: 0,
+        background: "url(img/Camp.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Rob the bank", "Rob the train"],
         exitIds: [1,2]
@@ -18,7 +19,7 @@ let rooms = [
     /*1st*/
     {
         id: 1,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/crossroads.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Take the valley", "Take the River"],
         exitIds: [3,4]
@@ -33,14 +34,14 @@ let rooms = [
     /*2nd*/
     {
         id: 3,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Valley.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Plan the heist", "Loosen the nerves"],
         exitIds: [7,8]
     },
     {
         id: 4,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/River.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Keep going", "Set up Camp"],
         exitIds: [7,8]
@@ -91,14 +92,14 @@ let rooms = [
     /*4th*/
     {
         id: 11,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Front.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Go around back to the vault", "Take care of the hostages"],
         exitIds: [15,16]
     },
     {
         id: 12,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Back.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Go to the vault", "Take hostages"],
         exitIds: [17,18]
@@ -121,28 +122,28 @@ let rooms = [
     /*Bank*/
     {
         id: 15,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Vault.png)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Try to crack the code", "Use explosives"],
         exitIds: [23,23]
     },
     {
         id: 16,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Hostages.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Comply with the police", "Ignore their demands"],
         exitIds: [25,26]
     },
     {
         id: 17,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Vault.png)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Try to crack the code", "Use explosives"],
-        exitIds: [32/* escape with the money, good end */,24]
+        exitIds: [31,24] /* 31 escape with the money, good end */
     },
     {
         id: 18,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Take_Hostages.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Help the gang maintain the hostages", "Go to the vault"],
         exitIds: [27,15]
@@ -181,35 +182,35 @@ let rooms = [
     /*6th-----------------------------------------------------------------------------------------------------------------------------------*/
     {
         id: 23,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_robbing.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Get the gold", "Save your gang"],
-        exitIds: [11,12]
+        exitIds: [32,33]
     },
     {
         id: 24, //bad ending route
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Explo.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Escape on your own", "Save your gang"],
-        exitIds: [13,14]
+        exitIds: [34,35]
     },
     {
         id: 25,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Comply.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Fight for the money", "Escape with your gang"],
-        exitIds: [15,16]
+        exitIds: [36,37]
     },
     {
         id: 26,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Ignore.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Escape with Hosea and Arthur", "Take the gold with Micha and Dutch"],
-        exitIds: [17,18]
+        exitIds: [38,39]
     },
     {
         id: 27,
-        background: "url(img/Bank_outside.webp)",
+        background: "url(img/Bank_Maintain.webp)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Use the hostages to get out", "Try to escape with the gold out back"],
         exitIds: [11,12]
@@ -236,17 +237,58 @@ let rooms = [
         exitIds: [17,18]
     },
     {
-        id: 32, //Silent bank, perfect end
-        background: "url(img/Bank_outside.webp)",
+        id: 31, //Silent bank, perfect end
+        background: "url(img/Bank_robbing.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
         exitTexts: ["Go on lookout", "Get the gold"],
-        exitIds: [17,18]
+        exitIds: [40,41]
     },
+    
 
 
     /*7th*/
-    
-    
+    {
+        id: 32, //Front, Get the gold. End
+        background: "url(img/Death2.jpg)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
+    },
+    {
+        id: 33, //Front, Save Gang. End
+        background: "url(img/Death2.jpg)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
+    },
+    {
+        id: 34, //Retard, Pussy
+        background: "url(img/placeholder.png)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Go on lookout", "Get the gold"],
+        exitIds: [40,41]
+    },
+    {
+        id: 35, //Retard, Bro
+        background: "url(img/placeholder.png)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Go on lookout", "Get the gold"],
+        exitIds: [40,41]
+    },
+    {
+        id: 36, //Front, Comply, Fight. End
+        background: "url(img/Death2.jpg)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
+    },
+     {
+        id: 37, //Front, Comply, Escape
+        background: "url(img/placeholder.png)",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
+    },
 
     
     
