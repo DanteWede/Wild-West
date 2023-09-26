@@ -262,18 +262,18 @@ let rooms = [
         exitIds: [0,0]
     },
     {
-        id: 34, //Retard, Pussy
-        background: "url(img/placeholder.png)",
+        id: 34, //Retard, Pussy. End
+        background: "url(img/Death2.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Go on lookout", "Get the gold"],
-        exitIds: [40,41]
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
     },
     {
-        id: 35, //Retard, Bro
-        background: "url(img/placeholder.png)",
+        id: 35, //Retard, Bro. End
+        background: "url(img/Death2.jpg)",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas eius laudantium nesciunt delectus commodi facere illum soluta dignissimos amet. Tempore eaque, ipsa quibusdam ab nisi vel pariatur doloribus magnam debitis minima voluptates alias fugiat autem odit cum, eum error.",
-        exitTexts: ["Go on lookout", "Get the gold"],
-        exitIds: [40,41]
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
     },
     {
         id: 36, //Front, Comply, Fight. End
