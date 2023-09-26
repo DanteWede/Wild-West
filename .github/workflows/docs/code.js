@@ -125,7 +125,7 @@ let rooms = [
     {/* Valley, Party */
         id: 8,
         background: "url(img/Bank_outside.webp)",
-        desc: `s the gang settled into their camp in the valley, the moonlight casting a gentle glow over the surroundings, a decision needed to be made regarding how to spend the night. Dutch and Micah were in favor of loosening up the nerves with alcohol and fooling around, while Hosea and Arthur believed that careful planning for the bank heist should take precedence.
+        desc: `<strong>A</strong>s the gang settled into their camp in the valley, the moonlight casting a gentle glow over the surroundings, a decision needed to be made regarding how to spend the night. Dutch and Micah were in favor of loosening up the nerves with alcohol and fooling around, while Hosea and Arthur believed that careful planning for the bank heist should take precedence.
         <br><br>
         Feeling the weight of the upcoming heist and wanting to relieve some of the tension in the camp, you decided to side with Dutch and Micah in their desire to unwind and indulge in some alcohol-fueled relaxation. You spoke up, "I think Dutch and Micah have a point. We could all use a little break to loosen up and boost our spirits before the big heist."
         <br><br>
@@ -597,7 +597,7 @@ let rooms = [
     },
      {/* Front, Hostage, Comply, Gold */
         id: 37,
-        background: "url(img/placeholder.png)",
+        background: "url(img/Death2.jpg)",
         desc: `<strong>F</strong>eeling compelled to stick with Dutch and Micha despite the odds, you made the difficult decision to stay with them and pursue the gold despite the failed heist. Your loyalty to the gang and its leadership was unwavering.
         <br><br>
         Hosea and Arthur, disappointed but understanding, moved forward with their plan to escape. They knew the risks involved in remaining behind and chose the safer path. "Take care," Hosea told you as they departed.
@@ -615,7 +615,7 @@ let rooms = [
     },
     {/* Front, Hostage, Ignore, Fight */
         id: 38,
-        background: "url(img/placeholder.png)",
+        background: "url(img/Death2.jpg)",
         desc: `<strong>I</strong>n a high-stakes gamble for riches and loyalty, you chose to stay with Dutch and Micha in their desperate attempt to secure valuables from the vault. The allure of potential wealth was too tempting to resist, even in the face of imminent danger and the encroaching police presence.
         <br><br>
         As you joined Dutch and Micha in their pursuit of riches, the tension inside the bank reached its zenith. The police were closing in, and every second counted as you hurried to gather as many valuables as you could carry from the vault.
@@ -631,7 +631,7 @@ let rooms = [
     },
     {/* Front, Hostage, Ignore, Escape */
         id: 39,
-        background: "url(img/placeholder.png)",
+        background: "url(img/End_Escape1.webp)",
         desc: `<strong>R</strong>ecognizing the escalating danger and the need for a swift and safe escape, you made the difficult decision to prioritize your safety and join Arthur and Hosea in their escape from the bank.
         <br><br>
         As you followed Arthur and Hosea, you left behind Dutch and Micha in their desperate attempt to secure valuables from the vault. The police were closing in, and your focus was on avoiding capture and preserving your freedom.
@@ -645,7 +645,7 @@ let rooms = [
     },
     {/* Back, Hostage, Keep, Use */
         id: 40,
-        background: "url(img/placeholder.png)",
+        background: "url(img/Death2.jpg)",
         desc: `<strong>I</strong>n a desperate and morally fraught attempt to use a hostage as a shield, you and the gang found yourselves in a perilous standoff with the police. The situation escalated rapidly, and the police, unwilling to negotiate, made the tragic decision to open fire.
         <br><br>
         The deafening sound of gunshots filled the air as a violent confrontation erupted. The police's determination to end the standoff resulted in dire consequences, and you and the gang were shot down in the midst of the chaos.
@@ -657,7 +657,7 @@ let rooms = [
     },
     {/* Back, Hostage, Keep, Lose */
         id: 41,
-        background: "url(img/placeholder.png)",
+        background: "url(img/End_Escape2.jpg)",
         desc: `<strong>W</strong>ith a heavy heart and the stolen gold in hand, you made the difficult decision to abandon the hostage and attempt a swift escape from the bank. However, as you exited the building, you were met with a grim reality—the police were waiting outside, ready for your gang's desperate exit.
         <br><br>
         A hail of gunfire erupted as law enforcement officers opened fire on your fleeing figure. The situation had escalated into a violent confrontation, and the bullets found their mark, bringing down your fellow gang members one by one.
@@ -671,7 +671,7 @@ let rooms = [
     },
     {/* Back, Vault, Code, Lookout */
         id: 42,
-        background: "url(img/placeholder.png)",
+        background: "url(img/Van_der_linde_gang.webp)",
         desc: `<strong>A</strong>fter considering the options, you decided to take on the role of lookout. Your priority was to safeguard the gang's safety and ensure that the heist proceeded without any interruptions or unwanted surprises. Hosea, the gang's strategist, gave you a nod of approval.
         <br><br>
         Positioned strategically, you kept a vigilant watch over the surroundings, your senses heightened for any signs of trouble. The gang members worked efficiently, collecting the stolen gold and securing it for a hasty getaway.
@@ -689,7 +689,7 @@ let rooms = [
     },
     {/* Back, Vault, Code, Gold */
     id: 43,
-    background: "url(img/placeholder.png)",
+    background: "url(img/Bank_Vault_Inside.jpg)",
     desc: `<strong>Inside the Vault</strong>
     <br><br>
     <strong>W</strong>ith the sound of approaching footsteps signaling your discovery, you faced a critical decision that could determine your fate in this high-stakes heist. The options were clear: escape with Arthur and Hosea for a chance at survival, or stay with Dutch and Micha in a desperate attempt to secure the gold.                            
@@ -699,26 +699,24 @@ let rooms = [
 },
 {/* Back, Vault, Code, Gold, Escape */
 id: 44,
-background: "url(img/placeholder.png)",
+background: "url(img/End_Escape1.webp)",
 desc: `<strong>R</strong>ecognizing the escalating danger and the need for a swift escape, you made the difficult decision to prioritize your safety and join Arthur and Hosea in their escape from the bank.
 <br><br>
-As you followed Arthur and Hosea, leaving behind Dutch and Micha in their desperate attempt to secure the gold, the sirens wailed in the distance, and the fate of the stolen riches remained uncertain.
-                            
+As you followed Arthur and Hosea, leaving behind Dutch and Micha in their desperate attempt to secure the gold, the sirens wailed in the distance, and the fate of the stolen riches remained uncertain.                 
 `,
 exitTexts: ["Play Again", "End"],
 exitIds: [0,0]
 },
 {/* Back, Vault, Code, Gold, Gold */
 id: 45,
-background: "url(img/placeholder.png)",
+background: "url(img/Death2.jpg)",
 desc: `<strong>I</strong>n a high-stakes gamble for wealth and loyalty, you made the daring decision to stay with Dutch and Micha in their desperate attempt to secure the gold, despite the imminent danger and the approaching law enforcement.
 <br><br>
 As the footsteps drew nearer, the tension in the vault was palpable. Dutch and Micha were determined to make the most of this opportunity, even as the police closed in. The prospect of riches was too alluring to pass up, and you knew the risks involved.
 <br><br>
 However, as the police entered the vault and discovered your presence, the situation quickly turned fatal. Without hesitation, the police officers opened fire, and in an instant, your life was cut short. The heist had come to a tragic and violent end, leaving the stolen gold behind and sealing your fate in this lawless and unforgiving world.
 <br><br>
-The decisions made during this heist had led to a devastating outcome, forever altering the course of the Van Der Linde gang and leaving an indelible mark on the history of this perilous land.
-                           
+The decisions made during this heist had led to a devastating outcome, forever altering the course of the Van Der Linde gang and leaving an indelible mark on the history of this perilous land.                         
 `,
 exitTexts: ["Play Again", "End"],
 exitIds: [0,0]
