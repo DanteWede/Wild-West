@@ -3,7 +3,7 @@ let desc = document.querySelector("#desc");
 let alt1 = document.querySelector("#button_text");
 let alt2 = document.querySelector("#button_text2");
 let background = document.querySelector("#BackBody");
-
+let visitedRooms = [];
 
 let currentRoom = 0;
 
@@ -17,7 +17,7 @@ let rooms = [
         exitIds: [1,2]
     },
     /*1st*/
-    {/* Bank */
+
     {/* Bank */
         id: 1,
         background: "url(img/crossroads.jpg)",
@@ -64,7 +64,7 @@ let rooms = [
         exitIds: [5,6]
     },
     /*2nd*/
-    {/* Valley */
+
     {/* Valley */
         id: 3,
         background: "url(img/Valley.webp)",
@@ -73,7 +73,7 @@ let rooms = [
         exitTexts: ["Plan the heist", "Loosen the nerves"],
         exitIds: [7,8]
     },
-    {/* River */
+
     {/* River */
         id: 4,
         background: "url(img/River.jpg)",
@@ -98,7 +98,7 @@ let rooms = [
         exitIds: [9,10]
     },
     /*3rd*/
-    {/* Bank Outside */
+
     {/* Bank Outside */
         id: 7,
         background: "url(img/Bank_outside.webp)",
@@ -107,7 +107,7 @@ let rooms = [
         exitTexts: ["Go from the front", "Go from the back"],
         exitIds: [11,12]
     },
-    {/* Bank Outside */
+
     {/* Bank Outside */
         id: 8,
         background: "url(img/Bank_outside.webp)",
@@ -131,7 +131,7 @@ let rooms = [
         exitIds: [13,14]
     },
     /*4th*/
-    {/* Front */
+
     {/* Front */
         id: 11,
         background: "url(img/Bank_Front.jpg)",
@@ -140,7 +140,7 @@ let rooms = [
         exitTexts: ["Go around back to the vault", "Take care of the hostages"],
         exitIds: [15,16]
     },
-    {/* Back */
+
     {/* Back */
         id: 12,
         background: "url(img/Bank_Back.jpg)",
@@ -165,7 +165,7 @@ let rooms = [
     },
     /*5th*/
     /*Bank*/
-    {/* Front, Vault */
+
     {/* Front, Vault */
         id: 15,
         background: "url(img/Bank_Vault.png)",
@@ -174,7 +174,7 @@ let rooms = [
         exitTexts: ["Try to crack the code", "Use explosives"],
         exitIds: [23,23]
     },
-    {/* Front, Hostage */
+
     {/* Front, Hostage */
         id: 16,
         background: "url(img/Bank_Hostages.webp)",
@@ -183,7 +183,7 @@ let rooms = [
         exitTexts: ["Comply with the police", "Ignore their demands"],
         exitIds: [25,26]
     },
-    {/* Back, Vault */
+
     {/* Back, Vault */
         id: 17,
         background: "url(img/Bank_Vault.png)",
@@ -192,7 +192,7 @@ let rooms = [
         exitTexts: ["Try to crack the code", "Use explosives"],
         exitIds: [31,24] /* 31 escape with the money, good end */
     },
-    {/* Back, Hostage */
+
     {/* Back, Hostage */
         id: 18,
         background: "url(img/Take_Hostages.jpg)",
@@ -233,7 +233,7 @@ let rooms = [
         exitIds: [35,36]
     },
     /*6th-----------------------------------------------------------------------------------------------------------------------------------*/
-    {/* Front, Vault (explo/code) */
+
     {/* Front, Vault (explo/code) */
         id: 23,
         background: "url(img/Bank_robbing.jpg)",
@@ -242,7 +242,7 @@ let rooms = [
         exitTexts: ["Get the gold", "Save your gang"],
         exitIds: [32,33]
     },
-    {/* Back, Vault, Explo */
+
     {/* Back, Vault, Explo */
         id: 24, //bad ending route
         background: "url(img/Bank_Explo.webp)",
@@ -251,7 +251,7 @@ let rooms = [
         exitTexts: ["Escape on your own", "Save your gang"],
         exitIds: [34,35]
     },
-    {/* Front, Hostage, Comply */
+
     {/* Front, Hostage, Comply */
         id: 25,
         background: "url(img/Bank_Comply.png)",
@@ -259,7 +259,7 @@ let rooms = [
         exitTexts: ["Escape with Hosea and Arthur", "Take the gold with Micha and Dutch"],
         exitIds: [36,37]
     },
-    {/* Front, Hostage, Ignore */
+
     {/* Front, Hostage, Ignore */
         id: 26,
         background: "url(img/Bank_Ignore.jpg)",
@@ -269,7 +269,7 @@ let rooms = [
         exitTexts: ["Fight for the money", "Escape with your gang"],
         exitIds: [38,39]
     },
-    {/* Back, Hostage, Maintain */
+
     {/* Back, Hostage, Maintain */
         id: 27,
         background: "url(img/Bank_Maintain.webp)",
@@ -315,16 +315,12 @@ let rooms = [
     /*7th*/
     {/* Front, Vault, Explo/Code, Gold */
         id: 32,
-    {/* Front, Vault, Explo/Code, Gold */
-        id: 32,
         background: "url(img/Death2.jpg)",
         desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
     },
-    {/* Front, Vault, Explo/Code, Gang */
-        id: 33,
     {/* Front, Vault, Explo/Code, Gang */
         id: 33,
         background: "url(img/Death2.jpg)",
@@ -339,19 +335,7 @@ let rooms = [
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
-    {/* Back, Vault, Explo, Selfish */
-        id: 34,
-        background: "url(img/Death2.jpg)",
-        desc: `<strong></strong>`,
-        exitTexts: ["Play Again", "End"],
-        exitIds: [0,0]
     },
-    {/* Back, Vault, Explo, Gang */
-        id: 35,
-        background: "url(img/Death2.jpg)",
-        desc: `<strong></strong>`,
-        exitTexts: ["Play Again", "End"],
-        exitIds: [0,0]
     {/* Back, Vault, Explo, Gang */
         id: 35,
         background: "url(img/Death2.jpg)",
@@ -361,16 +345,12 @@ let rooms = [
     },
     {/* Front, Hostage, Comply, Fight */
         id: 36,
-    {/* Front, Hostage, Comply, Fight */
-        id: 36,
         background: "url(img/Death2.jpg)",
         desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
     },
-     {/* Front, Hostage, Comply, Escape */
-        id: 37,
      {/* Front, Hostage, Comply, Escape */
         id: 37,
         background: "url(img/placeholder.png)",
@@ -393,7 +373,8 @@ function showRoom() {
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
-    stat.innerHTML = statusList[currentStatus];
+    visitedRooms.push(currentRoom);
+    console.log(visitedRooms);
 
     
 }
