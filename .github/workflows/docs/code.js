@@ -219,7 +219,7 @@ let rooms = [
     },
     {/* Back */
         id: 12,
-        background: "url(img/Bank_Back.png)",
+        background: "url(img/Bank_Back.png.jpg)",
         desc: `<strong>O</strong>pting for a more discreet and potentially safer approach, you chose to enter the bank through the back. The gang carefully made their way to the rear of the building, keeping a low profile to avoid drawing unnecessary attention.
         <br><br>
         Once at the back entrance, you assessed the situation. It seemed less crowded and more secluded than the front, and there was a chance of catching the bank's employees off guard.
@@ -415,7 +415,7 @@ let rooms = [
     },
     {/* Back, Vault, Explo */
         id: 24,
-        background: "url(img/Bank_Explo.webp)",
+        background: "url(img/cropped-Bank_Explo.png)",
         desc: `<strong>I</strong>n a bold and decisive move, the gang decided to use explosives to blow open the vault door. The decision promised a quick entry but came with the risk of drawing immediate attention from law enforcement or anyone nearby.
         <br><br>
         Micah, known for his affinity for explosives, eagerly prepared the charges while the rest of the gang members took cover behind various obstacles within the bank. Tension filled the room as the countdown to the explosion began.
