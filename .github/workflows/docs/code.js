@@ -18,8 +18,25 @@ let rooms = [
     },
     /*1st*/
     {/* Bank */
+    {/* Bank */
         id: 1,
         background: "url(img/crossroads.jpg)",
+        desc: `<strong>A</strong>s the flames danced in the dark of the night, the gang's collective decision was clear. The intoxicating allure of a daring bank heist was too much for you to resist, and you spoke up, "Let's hit the bank. It's time we make a statement that'll echo through these lands. The riches there will set us up for a long time to come."
+        <br><br>
+        Dutch's eyes gleamed with approval, his charismatic smile widening. Micah, always ready for chaos, chuckled with anticipation. Arthur exchanged a concerned look with Hosea but nodded in resignation.
+        <br><br>
+        With the decision made, the gang set their sights on the bank. The campfire's warmth now fueled by determination, they began to meticulously plan every detail, from the timing to the getaway route. The atmosphere buzzed with excitement and tension, and you could feel the weight of your choice settling in.
+        <br><br><br>
+        <strong>Crossroads</strong>
+        <br><br>
+        <strong>T</strong>he moon hung low in the night sky, casting a pale glow over the Van Der Linde gang as they stood at the crossroads, their options laid out before them. The choice between the treacherous river route and the safer, but longer, valley route would determine the success or failure of their (daring bank heist / train robbery).
+        <br><br>
+        Dutch, with his eyes shining with ambition, voiced his opinion first. Taking into account the speed that the river route offers he thinks that it would be the more beneficial choice. Micah, always one to embrace risk, nodded eagerly.
+        <br><br>
+        On the other side, Arthur, the voice of reason and experience. He shared his concerns stating that the river is risky because of its unpredictable nature, so he votes for the valley route. Hosea, the gang's strategist and mediator, added his wisdom to the discussion saying that the safety might cost extra time but that it will be worth it. 
+        <br><br>
+        All eyes turned to you once again, as the deciding vote rested on your shoulders. The tension in the air was palpable, and the fate of the gang hung in the balance. What would you choose?
+        `,
         desc: `<strong>A</strong>s the flames danced in the dark of the night, the gang's collective decision was clear. The intoxicating allure of a daring bank heist was too much for you to resist, and you spoke up, "Let's hit the bank. It's time we make a statement that'll echo through these lands. The riches there will set us up for a long time to come."
         <br><br>
         Dutch's eyes gleamed with approval, his charismatic smile widening. Micah, always ready for chaos, chuckled with anticipation. Arthur exchanged a concerned look with Hosea but nodded in resignation.
@@ -48,12 +65,15 @@ let rooms = [
     },
     /*2nd*/
     {/* Valley */
+    {/* Valley */
         id: 3,
         background: "url(img/Valley.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Plan the heist", "Loosen the nerves"],
         exitIds: [7,8]
     },
+    {/* River */
     {/* River */
         id: 4,
         background: "url(img/River.jpg)",
@@ -65,6 +85,7 @@ let rooms = [
         id: 5,
         background: "url(img/Bank_outside.webp)",
         desc: `<strong></strong>`,
+        desc: `<strong></strong>`,
         exitTexts: ["Plan the heist", "Loosen the nerves"],
         exitIds: [9,10]
     },
@@ -72,20 +93,25 @@ let rooms = [
         id: 6,
         background: "url(img/Bank_outside.webp)",
         desc: `<strong></strong>`,
+        desc: `<strong></strong>`,
         exitTexts: ["Keep going", "Set up Camp"],
         exitIds: [9,10]
     },
     /*3rd*/
     {/* Bank Outside */
+    {/* Bank Outside */
         id: 7,
         background: "url(img/Bank_outside.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Go from the front", "Go from the back"],
         exitIds: [11,12]
     },
     {/* Bank Outside */
+    {/* Bank Outside */
         id: 8,
         background: "url(img/Bank_outside.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Go from the front", "Go from the back"],
         exitIds: [11,12]
@@ -106,15 +132,19 @@ let rooms = [
     },
     /*4th*/
     {/* Front */
+    {/* Front */
         id: 11,
         background: "url(img/Bank_Front.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Go around back to the vault", "Take care of the hostages"],
         exitIds: [15,16]
     },
     {/* Back */
+    {/* Back */
         id: 12,
         background: "url(img/Bank_Back.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Go to the vault", "Take hostages"],
         exitIds: [17,18]
@@ -136,29 +166,37 @@ let rooms = [
     /*5th*/
     /*Bank*/
     {/* Front, Vault */
+    {/* Front, Vault */
         id: 15,
         background: "url(img/Bank_Vault.png)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Try to crack the code", "Use explosives"],
         exitIds: [23,23]
     },
     {/* Front, Hostage */
+    {/* Front, Hostage */
         id: 16,
         background: "url(img/Bank_Hostages.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Comply with the police", "Ignore their demands"],
         exitIds: [25,26]
     },
     {/* Back, Vault */
+    {/* Back, Vault */
         id: 17,
         background: "url(img/Bank_Vault.png)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Try to crack the code", "Use explosives"],
         exitIds: [31,24] /* 31 escape with the money, good end */
     },
     {/* Back, Hostage */
+    {/* Back, Hostage */
         id: 18,
         background: "url(img/Take_Hostages.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Help the gang maintain the hostages", "Go to the vault"],
         exitIds: [27,15]
@@ -196,19 +234,24 @@ let rooms = [
     },
     /*6th-----------------------------------------------------------------------------------------------------------------------------------*/
     {/* Front, Vault (explo/code) */
+    {/* Front, Vault (explo/code) */
         id: 23,
         background: "url(img/Bank_robbing.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Get the gold", "Save your gang"],
         exitIds: [32,33]
     },
     {/* Back, Vault, Explo */
+    {/* Back, Vault, Explo */
         id: 24, //bad ending route
         background: "url(img/Bank_Explo.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Escape on your own", "Save your gang"],
         exitIds: [34,35]
     },
+    {/* Front, Hostage, Comply */
     {/* Front, Hostage, Comply */
         id: 25,
         background: "url(img/Bank_Comply.png)",
@@ -217,15 +260,20 @@ let rooms = [
         exitIds: [36,37]
     },
     {/* Front, Hostage, Ignore */
+    {/* Front, Hostage, Ignore */
         id: 26,
         background: "url(img/Bank_Ignore.jpg)",
+        desc: `<strong></strong>`,
+        exitTexts: ["Fight for the money", "Escape with your gang"],
         desc: `<strong></strong>`,
         exitTexts: ["Fight for the money", "Escape with your gang"],
         exitIds: [38,39]
     },
     {/* Back, Hostage, Maintain */
+    {/* Back, Hostage, Maintain */
         id: 27,
         background: "url(img/Bank_Maintain.webp)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Use the hostages to get out", "Try to escape with the gold out back"],
         exitIds: [11,12]
@@ -253,8 +301,10 @@ let rooms = [
     },
     {
         /* Back, Vault, Code */
+        /* Back, Vault, Code */
         id: 31, //Silent bank, perfect end
         background: "url(img/Bank_robbing.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Go on lookout", "Get the gold"],
         exitIds: [40,41]
@@ -265,18 +315,30 @@ let rooms = [
     /*7th*/
     {/* Front, Vault, Explo/Code, Gold */
         id: 32,
+    {/* Front, Vault, Explo/Code, Gold */
+        id: 32,
         background: "url(img/Death2.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
     },
     {/* Front, Vault, Explo/Code, Gang */
         id: 33,
+    {/* Front, Vault, Explo/Code, Gang */
+        id: 33,
         background: "url(img/Death2.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
     },
+    {/* Back, Vault, Explo, Selfish */
+        id: 34,
+        background: "url(img/Death2.jpg)",
+        desc: `<strong></strong>`,
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
     {/* Back, Vault, Explo, Selfish */
         id: 34,
         background: "url(img/Death2.jpg)",
@@ -290,17 +352,29 @@ let rooms = [
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
+    {/* Back, Vault, Explo, Gang */
+        id: 35,
+        background: "url(img/Death2.jpg)",
+        desc: `<strong></strong>`,
+        exitTexts: ["Play Again", "End"],
+        exitIds: [0,0]
     },
     {/* Front, Hostage, Comply, Fight */
         id: 36,
+    {/* Front, Hostage, Comply, Fight */
+        id: 36,
         background: "url(img/Death2.jpg)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
     },
      {/* Front, Hostage, Comply, Escape */
         id: 37,
+     {/* Front, Hostage, Comply, Escape */
+        id: 37,
         background: "url(img/placeholder.png)",
+        desc: `<strong></strong>`,
         desc: `<strong></strong>`,
         exitTexts: ["Play Again", "End"],
         exitIds: [0,0]
