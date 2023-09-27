@@ -3,7 +3,7 @@ let desc = document.querySelector("#desc");
 let alt1 = document.querySelector("#button_text");
 let alt2 = document.querySelector("#button_text2");
 let background = document.querySelector("#BackBody");
-
+let visitedRooms = [];
 
 let currentRoom = 0;
 
@@ -736,8 +736,8 @@ function showRoom() {
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
-    stat.innerHTML = statusList[currentStatus];
-
+    visitedRooms.push(currentRoom);
+    console.log(visitedRooms);
     
 }
 
