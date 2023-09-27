@@ -18,7 +18,7 @@ let rooms = [
         <br><br>
         The Van Der Linde gang huddled around the campfire, deciding their next heist. Arthur and Hosea advocated for a train robbery, while Dutch and Micah favored a daring bank hit. As a new member, all eyes turned to you for the deciding vote. The stakes were high, riches or ruin, and your choice would echo through the lawless land, sealing the gang's fate. With resolve, you make your decision, igniting a new chapter in the gang's relentless pursuit of fortune.
         `,
-        exitTexts: ["Rob the bank", "Under construction"],
+        exitTexts: [`Rob the bank`, `Under construction`],
         exitIds: [1,1]
     },
     /*1st*/
@@ -736,7 +736,7 @@ function showRoom() {
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
-    stat.innerHTML = statusList[currentStatus];
+    
 
     
 }
@@ -750,6 +750,7 @@ function room1() {
     console.log("Left");
     currentRoom = rooms[currentRoom].exitIds[0];
     showRoom();
+    
 }
 
 function room2() {
