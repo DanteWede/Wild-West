@@ -721,24 +721,43 @@ The decisions made during this heist had led to a devastating outcome, forever a
 exitTexts: ["Play Again", "End"],
 exitIds: [0,0]
 },
+{/* TB, u suck! */
+id: 46,
+background: "url(img/Death2.jpg)",
+desc: `<strong>I</strong>n a high-stakes gamble for wealth and loyalty, you made the daring decision to stay with Dutch and Micha in their desperate attempt to secure the gold, despite the imminent danger and the approaching law enforcement.
+<br><br>
+As the footsteps drew nearer, the tension in the vault was palpable. Dutch and Micha were determined to make the most of this opportunity, even as the police closed in. The prospect of riches was too alluring to pass up, and you knew the risks involved.
+<br><br>
+However, as the police entered the vault and discovered your presence, the situation quickly turned fatal. Without hesitation, the police officers opened fire, and in an instant, your life was cut short. The heist had come to a tragic and violent end, leaving the stolen gold behind and sealing your fate in this lawless and unforgiving world.
+<br><br>
+The decisions made during this heist had led to a devastating outcome, forever altering the course of the Van Der Linde gang and leaving an indelible mark on the history of this perilous land.                         
+`,
+exitTexts: ["Play Again", "End"],
+exitIds: [0,0]
+},
 
 
     
     
 ];
 
-
+let TB = false;
 showRoom();
 
 
 function showRoom() {
+    if(TB == true){
+        currentRoom = 46;
+        TB = false;
+    }
     desc.innerHTML = rooms[currentRoom].desc;
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
-    stat.innerHTML = statusList[currentStatus];
-
     
+    if(Math.floor(Math.random() * (501)) == 13){
+        TB = true;
+    }
 }
 
 function displayStats() {
