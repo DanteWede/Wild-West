@@ -8,9 +8,9 @@ body{
   letter-spacing: 1.5px !important;
   background-image: url(img/Camp.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+  background-size: 100%;
   position: fixed;
+  overflow: hidden;
 }
 
 .text{

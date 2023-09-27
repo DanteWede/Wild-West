@@ -219,7 +219,7 @@ let rooms = [
     },
     {/* Back */
         id: 12,
-        background: "url(img/Bank_Back.jpg)",
+        background: "url(img/Bank_Back.png)",
         desc: `<strong>O</strong>pting for a more discreet and potentially safer approach, you chose to enter the bank through the back. The gang carefully made their way to the rear of the building, keeping a low profile to avoid drawing unnecessary attention.
         <br><br>
         Once at the back entrance, you assessed the situation. It seemed less crowded and more secluded than the front, and there was a chance of catching the bank's employees off guard.
