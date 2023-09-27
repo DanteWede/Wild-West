@@ -43,3 +43,9 @@ body{
 strong{
   font-size:50px;
 }
+#button_text3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
