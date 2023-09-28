@@ -51,9 +51,9 @@ strong{
 }
 .currentRoom{
   font-size: 24px;
-  top: 35px;
+  top: 15px;
   right: 200px;
   margin: 20px;
   position: absolute;
-  color: white;
+  color:rgb(166, 126, 77);
 }
