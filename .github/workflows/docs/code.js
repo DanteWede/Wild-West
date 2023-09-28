@@ -3,7 +3,6 @@ let desc = document.querySelector("#desc");
 let alt1 = document.querySelector("#button_text");
 let alt2 = document.querySelector("#button_text2");
 let background = document.querySelector("#BackBody");
-let visitedRooms = [];
 
 let currentRoom = 0;
 
@@ -736,31 +735,18 @@ function showRoom() {
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
-    visitedRooms.push(currentRoom);
-    console.log(visitedRooms);
     console.log(currentRoom);
-    if (currentRoom == 0) {
-        visitedRooms = [0];
-    }
+    console.log(rooms)
 }
 
 function displayCurrentElement() {
-    let currentIndex = visitedRooms.length - 2;
-    currentRoom = visitedRooms.length - 2;
 
+    desc.innerHTML = rooms[0].desc;
+    alt1.innerHTML = rooms[0].exitTexts[0];
+    alt2.innerHTML = rooms[0].exitTexts[1];
+    document.getElementById("BackBody").style.backgroundImage = rooms[0].background;
 
-    console.log(visitedRooms);
-    if (currentIndex >= 0) {
-
-
-        desc.innerHTML = rooms[visitedRooms[currentIndex]].desc;
-        alt1.innerHTML = rooms[visitedRooms[currentIndex]].exitTexts[0];
-        alt2.innerHTML = rooms[visitedRooms[currentIndex]].exitTexts[1];
-        document.getElementById("BackBody").style.backgroundImage = rooms[visitedRooms[currentIndex]].background;
-        visitedRooms.pop(currentIndex);
-
-    console.log(visitedRooms[currentIndex]);
-    }
+    rooms.id = 0;
 
 
 }
