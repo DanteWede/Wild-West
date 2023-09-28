@@ -3,6 +3,9 @@ let desc = document.querySelector("#desc");
 let alt1 = document.querySelector("#button_text");
 let alt2 = document.querySelector("#button_text2");
 let background = document.querySelector("#BackBody");
+let roomLabel = document.getElementById("currentRoom");
+let restart = document.querySelector("#restart")
+let visitedRooms = [];
 
 let currentRoom = 0;
 
@@ -730,24 +733,32 @@ exitIds: [0,0]
 showRoom();
 
 
+function restartRoom() {
+
+
+    currentRoom = 0;
+
+    desc.innerHTML = rooms[currentRoom].desc;
+    alt1.innerHTML = rooms[currentRoom].exitTexts[0];
+    alt2.innerHTML = rooms[currentRoom].exitTexts[1];
+    document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
+    roomLabel.textContent = "You are in room: " + currentRoom;
+    visitedRooms.push(currentRoom);
+    console.log(visitedRooms);
+    console.log(currentRoom);
+}
+
+
 function showRoom() {
     desc.innerHTML = rooms[currentRoom].desc;
     alt1.innerHTML = rooms[currentRoom].exitTexts[0];
     alt2.innerHTML = rooms[currentRoom].exitTexts[1];
     document.getElementById("BackBody").style.backgroundImage = rooms[currentRoom].background;
+    roomLabel.textContent = "You are in room: " + currentRoom;
+
+    visitedRooms.push(currentRoom);
+    console.log(visitedRooms);
     console.log(currentRoom);
-    console.log(rooms)
-}
-
-function displayCurrentElement() {
-
-    desc.innerHTML = rooms[0].desc;
-    alt1.innerHTML = rooms[0].exitTexts[0];
-    alt2.innerHTML = rooms[0].exitTexts[1];
-    document.getElementById("BackBody").style.backgroundImage = rooms[0].background;
-
-    rooms.id = 0;
-
 
 }
 
